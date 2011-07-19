@@ -1,0 +1,107 @@
+% $Id: cap2.tex,v 1.1 2003/04/10 23:12:59 gweber Exp $
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Segundo capitulo:
+%% Metodologia
+%% Copyright 2003 Dehon Charles Regis Nogueira.
+%% Este documento � distribu�do nos termos da licen�a
+%% descrita no arquivo LICENCA que o acompanha.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Metodologia}
+
+Utiliza-se nesta pesquisa o método de revisão bibliográfica, que se baseia em levantamento de trabalhos anteriores e melhores práticas para desenvolvimento de jogos eletrônicos voltados ao ambiente educacional.
+
+Ao propor-nos o desenvolvimento de um jogo, temos que definir quais estruturas métodos e técnicas que devemos utilizar. Com isso em mente desenvolvemos nossa metodologia definindo alguns pontos importantes para o desenvolvimento deste projeto, como uma linguagem de programação, engines que serão utilizadas; técnicas de engenharia de software, como por exemplo: modelo de desenvolvimento de projeto, métodos de testes e métodos de documentação.
+
+\section{Linguagem de Programação Python}
+
+Python é uma poderosa linguagem de programação, multiplataforma, de tipagem dinâmica e de alto nível, orientada a objetos. Diferente de outras linguagens de programação compiladas, como por exemplo: C, C++, Pascal, etc., (MENEZES, 2010).
+
+Python é interpretada por uns dos fatores ao qual seu código pode ser executado em várias plataformas sem necessidade de alterações.
+
+A linguagem é interpretada através de bytecode pela máquina virtual Python, tornando o código portável. Com isso é possível compilar aplicações em uma plataforma e rodar em outros sistemas ou executar direto do código fonte. (Borges, 2010).
+
+Python no que tange a leitura de código é uma linguagem limpa e clara, pois usa blocos de endentação no lugar de abre e fecha chaves, como em outras linguagens. Com isso a leitura e entendimento do código se tornam intuitiva. Apesar de ser uma linguagem totalmente orientada a objetos, Python é multiparadigma, podendo se programar orientado a objetos, procedural e modular. Altamente modularizada, suportando hierarquia de pacotes. Tratamento de erros baseados em exceções. Tipos dinâmicos de alto nível, orientado a tipo de dado, amplo acervo de módulos padrão e disponibilidade para importá-los, extensões e módulos facilmente escritos em outras linguagens como, por exemplo, C, C++, Java para Jython ou .NET para IronPython. Pode-se embutir em aplicações atuando como interface de scripting, por exemplo, algumas distribuições Gnu/Linux usam Python para gerenciar grande quantidade de tarefas internas: gerenciador de atualizações. Python possui uma sintaxe clara e concisa, que favorece a legibilidade do código fonte, tornando a linguagem mais produtiva. (Borges, 2010).
+
+Python como uma linguagem de alto nível possui estruturas prontas como listas, módulos matemáticos, módulos para datas e horas, dicionários. Possui um vasto domínio de aplicação:
+
+\begin{itemize}
+	\item[-] Desenvolvimento para web e Internet: CGI scripts, frameworks, sistemas gerenciadores de conteúdo, processamento de e-mail.
+	\item[-] Acesso a banco de dados: interface ODBC e customizados para MySQL, Oracle, MS SQL Server, PostgreSQL, SybODBC, banco de dados orientados a objetos como ZODB E Durus.
+	\item[-] Interface Gráfica de Desktops: Tk, GTK+, Qt, Microsoft Foundation Classes, Delphi.
+	\item[-] Cientifico e Numérico: bioinformática, física.
+	\item[-] Educação: utilizado para ensino de programação.
+	\item[-] Programação de Redes: interface socket. 
+	\item[-] Desenvolvimento de software: Apache Gump, Buildbot, Trac.
+	\item[-] Jogos e Gráficos 3D: Pygame, PyKyra, PyWeek, Blender.	
+\end{itemize}
+ 
+A linguagem Python é software livre, tornando-a livre para ser usada e distribuída, incluindo uso comercial. A licensa Python é administrada pela PSF (Python Software Foundation). (MENEZES, 2010).
+
+
+\subsection{PyGame}
+
+Uma biblioteca “cross-platform”, ou seja, multiplataforma, assim como a linguagem de programação Python a biblioteca Pygame roda em diversas plataformas. Criada para abstrair o desenvolvimento de softwares multimídia, como jogos eletrônicos em Python, fornecendo módulos para gráficos, sons, e requisitos necessários para modelagem de jogos eletrônicos.
+
+Pygame além de ser uma biblioteca Python, com vários módulos próprios para confecção de aplicações multimídia, necessita, como dependência a biblioteca SDL (Simple DirectMedia Layer), podendo usar também outras bibliotecas quando necessário. Pygame em termos gerais fornece a API da biblioteca SDL entre outras funcionalidades.
+
+Simple DirectMedia Layer (SDL) é uma biblioteca multiplataforma criada para prover acesso de baixo nível a áudio, teclado, mouse, joystick, aceleração 3D via OpenGL e vídeo 2D framebuffer. Altamente utilizada por software tocador de MPEG, emuladores, e jogos eletrônicos em geral.
+
+Escrita em linguagem de programação C, e trabalhando com linguagem C++ nativamente, possuindo implementação em outras linguagens como, por exemplo: Java, Perl, Python, Ruby, Smalltalk, entre outras. Distribuída sobre licensa GNU LGPL versão 2, tornando-a livre para ser usada em aplicações comerciais.
+
+\subsection{PyKyra}
+	
+Uma implementação em Python de engine Kyra, fornecendo um framework para se modelar jogos eletrônicos e aplicações multimídia com suporte a imagens, vídeo, aceleração 3D via OpenGL, compressão de imagens e audio.
+
+Pykyra é suportada em plataformas GNU/Linux x86, e Win32. Distribuído sobre licença GNU GPL versão 3. Kyra é um simples, robusto engine de sprites escrito em C++, escrita sobre SDL , utilizando-se de todos os benefícios desta biblioteca para produzir em excelente motor de sprites. Distribuída sobre licença GNU LGPL versão 2, tornando-a livre para ser usada em aplicações comerciais. 
+
+
+\subsection{Engenharia de software}
+
+Segundo PRESSMAN (1995) a engenharia de software é derivada da área de engenharia de sistemas e de hardware. Engloba três elementos essenciais são eles: métodos, ferramentas e procedimentos.
+
+Com o conhecimento adquirido, vindo das áreas de engenharia de sistemas e de hardware, e com a explosão da necessidade de desenvolvimento softwares melhores, robustos e com agilidade na fase de criação, nasceu a disciplina engenharia de software.
+
+	Sommerville (2007) também cita que, trata-se de uma disciplina que envolve todos os pontos de vista para construção de software, cobrindo todo o ciclo de vida do desenvolvimento e gerência.
+	
+	Engenharia de software se constitui uma importante etapa do desenvolvimento de um software, seja ele qual for. Sem esta analise, dificilmente consegue-se criar um bom produto final.	
+
+\subsubsection{Modelo Espiral}
+
+De acordo com  (SOMMERVILLEE, 2007).
+
+\begin{citacao}
+\ldots Em vez de representas o proceseso de software como uma seqüência de atividades com algum etorno entre uma atividade e outra, o processo é representado como uma espiral. Cada loop na espiral representa uma fase do processo de software. Dessa forma, o loop mais interno pode estar relacionado à viabilidade do sistema; o próximo loop, à definição de requisitos; o próximo, ao projeto de sistema e assim por diante.
+\end{citacao}
+
+O modelo de desenvolvimento espiral, por possuir as características de evolução, e análise de riscos, torna o desenvolvimento de software altamente controlado e focado em cada etapa. Se for preciso reestruturar um ponto em questão, será preciso passar pelo ciclo do espiral.
+
+Segundo PRESMAN (1995) o modelo espiral é uma evolução do modelo clássico e prototipação, herdando suas melhores práticas, e incluindo o fator de análise de riscos.
+
+O fator análise de riscos é um dos pontos fortes deste modelo de desenvolvimento, pois  atua fortemente em um dos pontos fracos dos modelos de desenvolvimento anteriores a ele. Se descrobe-se que ao final do trabalho de desenvolvimento clássico ouve um erro, todo o trabalho anterior deverá ser refeito. Com o modelo de desenvolvimento espiral, e praticando análise de riscos, a possibilidade de encontra imprevistos diminui.
+
+Figura~\ref{f1.9} FALTA ARRUMAR ESTA PARTE.
+\begin{figure}[!hbp]
+\makebox[\textwidth]{\framebox[5cm]{\rule{0pt}{5cm}}}
+\caption{O modelo espiral (retirado de (PRESMAN, 1995)).} \label{f1.9}
+\end{figure}
+
+O modelo espiral como mostrado na figura 9, mostra quatro quadrantes com o espiral ao centro. Cada quadrante especifica atividades a serem postas em prática:
+
+\begin{enumerate}
+	\item Planejamento: proposta de planejamento e mais ao centro levantamento de requisitos iniciais, como mostra a figura 9.
+	\item Análise dos riscos: mais ao centro análise dos riscos considerando os requisitos iniciais. O mais externo análise dos riscos considerando reação do cliente.
+	\item Engenharia: desenvolvimento.
+	\item Avaliação feita pelo cliente: avaliação do produto da fase de engenharia.
+\end{enumerate}
+
+PRESSMAN, 1995 coloca ainda que.
+
+\begin{citacao}
+Mas, como os demais paradigmas, o modelo espiral não é uma 	 panacéia. Pode ser difícil convencer grandes clientes (particularmente em situações de contrato) de que a abordagem evolutiva é controlável. Ela exige considerável experiência na avaliação dos riscos e fia-se nessa experiência para o sucesso. 
+\end{citacao}
+
+
+\subsubsection{Teste de Software}
+\subsubsection{Modelo de Documentação}
+\subsubsection{UML}
