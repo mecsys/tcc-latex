@@ -7,6 +7,9 @@ tags
 *.blg
 *.dvi
 *.ps
+*.lot
+*.lof
+*.bbl
 *.pdf
 *.toc
 *.tof
