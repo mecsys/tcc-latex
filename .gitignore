@@ -1,0 +1,13 @@
+# Ignorar arquivos
+tags
+*.nfs
+*.swap
+*.aux
+*.log
+*.blg
+*.dvi
+*.ps
+*.pdf
+*.toc
+*.tof
+*.bak

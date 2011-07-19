@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Dissertação - Principal
+%% Copyright 2011 Isaac Mechi.
+%% Este documento é distribuído nos termos da licença
+%% descrita no arquivo LICENCA que o acompanha.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[dvips,ruledheader]{abnt}
+\usepackage[brazil]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[dvips]{graphicx}
+%\usepackage{abnt-alf}
+\usepackage{latexsym}
+\usepackage{psfrag}
+\usepackage[center]{caption2}
+
+\usepackage{cite}
+
+\begin{document}
+
+\DeclareGraphicsRule{.eps.gz}{eps}{.eps.bb}{`gunzip -c #1}
+
+\include{capa}
+
+\include{folharosto}
+
+%\include{folhaaprovacao}
+
+%\include{dedicatoria}
+
+%\include{agradecimentos}
+
+%\include{epigrafe}
+
+%\include{resumo}
+
+%\include{abstract}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+%\include{introducao}
+
+\include{cap1}
+
+%\include{cap2}
+
+%\include{cap3}
+
+%\include{conclusao}
+
+\include{bibliografia}
+
+%\include{anexo}
+
+%\include{ferramentas}
+
+\end{document}
+
