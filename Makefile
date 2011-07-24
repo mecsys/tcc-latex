@@ -2,7 +2,7 @@
 
 all: tcc.ps tcc.pdf
 
-.PHONY: clean tar
+.PHONY: clean tar all
 
 tcc.dvi : tcc.tex
 	latex tcc
